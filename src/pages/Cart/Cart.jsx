@@ -19,10 +19,10 @@ function Cart({ cart,handleInc,handleDec,handleRemove,getTotalPrice,applyPromoCo
     <>
       <div className=" w-[90%] mx-auto ">
         {
-          !Cart.lenght ? (<CartEmpty/>) : (
+          cart.length === 0 ? (<CartEmpty/>) : (
             <div className="flex flex-col  lg:flex-row shadow-md my-10">
-          <div classNameName="w-full lg:w-3/4 bg-white px-10 py-10">
-            <div classNameName="flex justify-between border-b pb-8">
+          <div className="w-full lg:w-3/4 bg-white px-10 py-10">
+            <div className="flex justify-between border-b pb-8">
               <h1 className="font-semibold text-2xl">Shopping Cart</h1>
               <h2 className="font-semibold text-2xl">{cart.length} Items</h2>
             </div>
