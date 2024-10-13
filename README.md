@@ -30,7 +30,7 @@ React-icons: A set of icons for React applications.
 
 Live Demo
 
-Check out the live version of the website here: Live Link <!-- Replace # with your actual live link -->
+Check out the live version of the website here: Live Link https://arindam-shopping-site.netlify.app/
 
 Installation
 
